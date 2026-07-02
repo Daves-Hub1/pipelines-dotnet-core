@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Default' # Directs the pipeline to your Azure VM agent pool
 
 variables:
   buildConfiguration: 'Release'
